@@ -10,6 +10,7 @@
 body {
     font-size: 14px;
 	font-family: STHeiti;
+	padding: 45px 0;
 }
 
 .fixed-header {
@@ -71,7 +72,6 @@ button {
 .hero-section {
     height: 175px;
     width: 100%;
-    margin-top: 35px;
     background: url(background.png) no-repeat center /105% auto;
 }
 .content-section > div {
