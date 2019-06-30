@@ -74,6 +74,18 @@ button {
     margin-top: 35px;
     background: url(background.png) no-repeat center /105% auto;
 }
+.content-section > div {
+	border-bottom: 1px solid #C6C6C8;
+	display:flex;
+    display:-webkit-flex;
+    flex-direction: row;
+    align-items:center;
+	padding: 10px 0;
+	margin: 0 10px;
+}
+.content-section > .wide-row {
+	margin: 0;
+}
 .portrait {
     width: 80px;
     height: 80px;
@@ -107,6 +119,7 @@ button {
 .skill {
 	font-size: 16px;
 	font-weight: 500;
+	margin-left: 10px;
 }
 .skill:before {
     background: url('line.png') no-repeat top left /auto 12px;
@@ -129,27 +142,12 @@ button {
     width: 16px;
     height: 11px;
 }
-.skill-header {
-    width: 100%;
-	padding-left: 10px;
-}
-.skill-content {
-    margin: 0 10px;
-}
-.bottomline {
-    border-bottom: 1px solid #C6C6C8;
-}
-.line {
-    padding: 15px 8px;
-}
 .line-head {
     padding: 0 12px; 
     width: 60px;
     position: absolute;
     color: #C6C6C8;
-}
-.border-right {
-    border-right: 1px solid #C6C6C8;
+	border-right: 1px solid #C6C6C8;
 }
 .line-detail {
     padding-left: 100px;
